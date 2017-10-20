@@ -73,13 +73,6 @@ $(document).ready(function() {
   // Stick the header at top on scroll
   $("#header").sticky({topSpacing:0, zIndex: '50'});
   
-  // Counting numbers
-
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
-
   // Tooltip & popovers
   $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
